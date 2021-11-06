@@ -1,0 +1,278 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+*
+{
+	font-family: sans-serif;
+}
+/*header start*/
+.header{}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+
+	float: left;
+	/*padding: 0 10px;*/
+	list-style: none;
+
+}
+.menu ul li a {
+	padding:0 10px;
+	font-family: sans-serif;
+
+    font-weight: 700;
+    font-size: 17px;
+	text-decoration: none;
+	color: #000000;
+}
+.menu ul li:last-child a
+{
+	padding-right: 0;
+}
+.menu ul li a:hover
+{
+	color: rgb(189,35,63);
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/bimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 450px;
+}
+.b_content{
+	width: 50%;
+	/*border: 1px solid red;*/
+	margin:90px 0;
+}
+.b_content h1
+
+{ 
+	margin-top: 0;
+    font-size: 66px;
+	color: rgb(255,255,255);
+}
+
+
+.b_content p{
+	font-size: 20px;
+	line-height: 25px;
+	color: white;
+}
+
+.b_content button
+{   margin-top: 40px;
+	width: 250px;
+    height: 50px;
+    background-color: rgb(189,35,63);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+/*banner end*/
+/* how it works started*/
+ .howitworks{
+ 	padding: 90px 0;
+ }
+ .c_title{
+ 	margin: 0 auto 50px;
+ 	width: 70%;
+ 	/*border:1px solid red;*/
+ 	text-align: center;
+
+
+ }
+ .common_h1{
+ 	margin: 0 0 30px 0;
+ 	font-weight: 700;
+ 	font-size: 30px;
+ 	text-transform: uppercase;
+ 	color: #161616;
+ 	
+
+ }
+ .common_p{
+ 	margin: 0;
+ 	font-weight: 700;
+ 	font-size: 17px;
+    line-height: 25px;
+ 	color: #535D69;
+ }
+
+ .howitworksicon{
+     overflow: hidden;
+   
+ }
+ .single_content{
+     padding: 20px 4.15%;
+ 	float: left;
+ 	width: 25%;
+ 
+ 	text-align: center;
+ }
+ .s_image{
+ 	margin: 0 auto; 
+ 	width: 40%;
+
+ }
+ .s_image img{
+ 	width: 100%;
+ }
+ .single_content h3{
+ 	font-weight: 700;
+ 	font-size: 20px;
+    line-height: 25px;
+    color: #535D69;
+ 	
+ }
+
+/* how it works ended*/
+
+
+/*video and process start*/
+.whole_process
+{
+	padding: 90px 0;
+	background-color: #F5F5F5;
+}
+.process_title{
+	width: 45%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.process_title h1{
+	margin: 10px 0 30px 0;
+ 	font-weight: 700;
+ 	font-size: 30px;
+ 	line-height: 45px;
+ 	text-transform: uppercase;
+ 	color: #161616;
+ 	
+
+}
+.process_title p{
+	margin: 0;
+ 	font-weight: 700;
+ 	font-size: 17px;
+    line-height: 25px;
+ 	color: #535D69;
+}
+.process_title button
+{
+	margin-top: 40px;
+	width: 150px;
+    height: 50px;
+    background-color: rgb(189,35,63);
+    color: white;
+    border: none;
+    
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.videocontrol{
+	width: 45%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.videocontrol video
+{
+	width: 100%;
+	height: auto;
+}
+
+/*video and process end*/
+
+
+
+/*features start*/
+
+.features{
+	padding: 90px 0;
+}
+.featureshead{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+.featureshead h1{}
+.featureshead p{}
+/*features end*/
+
+/*blogcontent started*/
+.blog{}
+.blogsection{
+	
+     overflow: hidden;
+ }
+.blog_content{
+	
+
+
+    margin: 2% 0;
+	padding: 30px 51px;
+   
+    background-color: white;
+    width: 30%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+     box-shadow: 5px 5px 5px grey;
+    
+}
+
+.extra
+{
+	margin: 2% 5%;
+}
+
+.blog_image{
+	margin: 0 auto;
+	width: 20%;
+
+}
+.blog_image img{
+	width: 100%;
+}
+.blog_desc{}
+.blog_desc h3{
+	font-weight: 700;
+ 	color: #161616;
+ 	
+}
+.blog_desc p{
+	margin: 0;
+ 	font-weight: 700;
+ 	font-size: 17px;
+    line-height: 25px;
+ 	color: #535D69;
+}
+
+
+/*blogcontent end*/
